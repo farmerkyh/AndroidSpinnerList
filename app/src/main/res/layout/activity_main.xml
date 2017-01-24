@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="30dp"
+    android:orientation="vertical"
+    tools:context="com.example.kyh.spinnerlist.MainActivity">
+
+<!-- Color -->
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"  >
+    <TextView
+        android:id="@+id/tv_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Color" />
+    <Spinner
+        android:id="@+id/sp_color"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/tv_color"
+        android:gravity="right"></Spinner>
+</RelativeLayout>
+
+</LinearLayout>
